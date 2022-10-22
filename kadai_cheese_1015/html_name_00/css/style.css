@@ -1,0 +1,512 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+html{
+
+    font-size: 62.5%;
+}
+
+
+/* -----------------------
+全体に対して
+-------------------------- */
+body{
+
+    font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;   
+    width: 1200px;
+    margin: auto;
+   
+}
+
+.text-center{
+    text-align: center;
+}
+
+.wrapper{
+    margin: auto;
+    }
+
+/* -----------------------
+header部分
+-------------------------- */
+.nav-item{
+    margin: 0 50px 0 0;
+    font-size: 2.1rem;
+    }
+
+.nav{
+    font-size: 21px;
+    margin: 0 0 0 50px;
+}
+
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin: 25px 0 25px 0;
+}
+
+.nav-list{
+    display: flex;
+}
+
+
+    .nav-item>a{
+        color: #000;
+        text-decoration: none;
+        text-transform: uppercase;
+
+    }
+
+/* -----------------------
+セカイ変えるチーズを作ろうの部分
+-------------------------- */
+.main-img{
+    position: relative;
+    margin: auto;
+    width: 1200px;
+}
+
+.main-img-1 img{
+    max-width: 100%;
+    height: auto;
+}
+
+.main-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate3d(-50%,-50%,0) ;
+}
+
+.main-text1{
+    color: #fff;
+    font-size: 3.8rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    margin: 0 0 30px;
+}
+
+.main-text2{
+    color: #fff;
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+}
+
+/* -----------------------
+about部分
+-------------------------- */
+
+.about-wrapper{
+    margin: 60px 0 60px 0;
+}
+
+.about-title{
+    color: #ffd61a;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+}
+
+.about-title-jp{
+    font-size: 1.8rem;
+    margin: 0 0 60px;
+}
+
+.about-text1{
+    font-size: 1.6rem;
+    margin: 0 0 40px;
+}
+
+.about-text2{
+    font-size: 1.6rem;
+    margin: 0 0 40px;
+    line-height: 2;
+}
+
+.about-text3{
+    font-size: 1.6rem;
+    margin: 0 0 40px;
+}
+
+.about-text4{
+    font-size: 1.6rem;
+    margin: 0 0 80px;
+    line-height: 2;
+}
+
+.about-img{
+    width: 1200px;
+}
+
+.about-imglist{
+    display: flex;
+}
+
+.about-imglist img{
+    width: 300px;
+}
+
+/* -----------------------
+COURCE部分
+-------------------------- */
+
+.cource-wrapper{
+    margin: 60px 0 60px 0;
+}
+
+.cource-collar{
+    background-color: #fafafa;
+}
+
+.cource-title{
+    color: #ffd61a;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+}
+
+.cource-text{
+    font-size: 1.6rem;
+    margin: 30px 0 60px 0;
+    line-height: 2;
+}
+
+.cource-wrapper img{
+    width: 50%;
+}
+
+.cource-item-right{
+    height: 404px;
+    width: 430px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.cource-item-right2{
+    width: 430px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 0 0 50px;
+}
+
+.cource-item-right2 h3{
+    color: #000000;
+    font-size: 2.4rem;
+    font-weight: bold;
+    padding: 0 0 40px 0;
+}
+
+.cource-item-right2 p{
+    color: #000000;
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+.cource-item-left{
+    width: 50%;
+    float: left;
+    height: 400px;
+    vertical-align: top;
+    position: relative;
+}
+
+.cource-item-left2{
+    width: 430px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 0 0 50px;
+}
+
+.cource-item-left2 h3{
+    color: #000000;
+    font-size: 2.4rem;
+    font-weight: bold;
+    padding: 0 0 40px 0;
+}
+
+.cource-item-left2 p{
+    color: #000000;
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+
+/* -----------------------
+news部分
+-------------------------- */
+.news-wrapper{
+    margin: 60px 0 60px 0;
+    position: relative;
+}
+
+.news-title{
+    color: #ffd61a;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+}
+
+.news-title-jp{
+    font-size: 1.8rem;
+    margin: 0 0 60px;
+}
+
+.news-list{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 34rem;
+   
+}
+
+.news-item{
+    width: 300px;
+}
+
+.news-item p{
+    font-size: 1.4rem;
+    line-height: 2;
+   
+   
+}
+
+.news-item-2{
+    width: 300px;
+    margin: 0 30px 0 30px;
+   
+}
+
+.news-item-2 p{
+    font-size: 1.4rem;
+    line-height: 2;
+   
+}
+
+.news-day{
+    font-size: 1.6rem;
+    margin: 0 0 24px;
+    
+}
+
+.news-img{
+    margin: 0 0 30px;
+}
+
+.btn{
+    display: block;
+    width: 300px;
+    height: 60px;
+    margin: auto;
+    background-color: #ffd61a;
+    color: #fff;
+    font-size: 1.8rem;
+    position: relative;
+    }
+
+.btn:hover{
+    background-color: #000;
+}
+
+.btn-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+.btn2 {
+	transition: all 1s linear 0s;
+	border-radius: 50%;
+	cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+.btn2:hover{
+    transform: rotateX(360deg);
+}
+
+
+/* -----------------------
+ACCESS部分
+-------------------------- */
+.access-wrapper{
+    margin: 60px 0 60px 0;
+    background-color: #fafafa;
+    padding: 60px 0 60px 0;
+}
+
+.access-title{
+    color: #000;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+}
+
+.access-title-jp{
+    font-size: 1.8rem;
+    margin: 0 0 60px;
+}
+
+.table{
+    width: 50%;
+    table-layout: auto;
+    margin: auto;
+}
+
+.table-tr{
+    padding: 8px 0 0 0;
+    font-size: 1.6rem;
+}
+
+.table-td1{
+    padding: 17px;
+    text-align: left;
+}
+
+.table-td{
+    padding: 17px;
+    text-align: left;
+}
+
+.table-wrapper{
+    padding:50px 0 0 0;
+    text-align: center;
+}
+
+/* -----------------------
+CONTACT部分
+-------------------------- */
+.contact-wrapper{
+    margin: 60px 0 140px 0;
+}
+
+.contact-title{
+    color: #000;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+}
+
+.contact-text1{
+    font-size: 1.6rem;
+    margin: 0 0 60px;
+}
+
+.contact-text2{
+    font-size: 1.6rem;
+    margin: 0 0 30px;
+    line-height: 2;
+}
+
+.contact-text3{
+    font-size: 1.6rem;
+    margin: 0 0 70px;
+    line-height: 2;
+}
+
+
+.form-inner{
+    width: 650px;
+    display: flex;
+    flex-wrap:wrap;
+    margin: auto;
+    padding: 0 0 30px 0;
+}
+
+.form-title{
+    width: 160px;
+    padding: 16px 64px 16px 16px;
+    font-weight: bold;
+    text-align: left;
+    border-top: 2px solid #bfbfbf;
+    border-bottom: 2px solid #bfbfbf;
+    border-right: 2px solid #bfbfbf;
+    margin: 0 0 -2px; 
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+}
+
+.form-item{
+    width: 384px;
+    border-top: 2px solid #bfbfbf;
+    border-bottom: 2px solid #bfbfbf;
+    margin: 0 0 -2px; 
+    padding: 8px;
+}
+
+.form-parts{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    font-size: 1.6rem;
+    border: solid 1px #c9c9c9;
+}
+.form-label{
+    margin: 0 16px 0 0;
+    font-size: 1.3rem;
+    display:block;
+    padding: 12px;
+
+}
+
+.form-item-1{
+    width: 384px;
+    border-top: 2px solid #bfbfbf;
+    border-bottom: 2px solid #bfbfbf;
+    margin: 0 0 -2px; 
+    padding: 8px;
+    
+}
+.know_haichi{
+    text-align: center;
+}
+
+input[type*="radio"]{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    margin: 0 10px 0 0 ;
+    border: solid 1px #a0a0a0;
+    border-radius: 50%;
+    vertical-align: -2px;
+}
+
+input[type*="radio"]:checked{
+    background-color: #a0a0a0;
+}
+
+.btn-submit{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    padding: 
+}
+
+/* -----------------------
+footer部分
+-------------------------- */
+
+
+.footer{
+    padding: 30px 0;
+    background-color: #707070;
+}
+
+.copyrights{
+    color: #fff;
+}
